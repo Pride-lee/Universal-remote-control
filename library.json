@@ -1,0 +1,30 @@
+ {
+  "name": "Json Streaming Parser 2",
+  "keywords": "json, streaming, https, http, wifi",
+  "description": "A memory efficient library to parse (large) JSON objects from HTTP or HTTPS on embedded devices. Library includes useful example sketches.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrfaptastic/json-streaming-parser2.git"
+  },
+  "authors": {
+    "name": "Faptastic",
+    "url": "https://github.com/mrfaptastic/"
+  },
+  "version": "2.0.2",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "examples": [
+    "examples/HTTPS_StreamParser/*.ino",
+    "examples/HTTPS_StreamParser/*.cpp",
+    "examples/HTTPS_StreamParser/*.h",
+	
+    "examples/HTTPS_StreamParser_Map/*.ino",
+    "examples/HTTPS_StreamParser_Map/*.cpp",
+    "examples/HTTPS_StreamParser_Map/*.h",	
+	
+    "examples/SimpleParser/*.ino",
+    "examples/SimpleParser/*.cpp",
+    "examples/SimpleParser/*.h"	
+	
+  ]
+}
